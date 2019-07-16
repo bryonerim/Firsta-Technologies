@@ -5,7 +5,7 @@ if(!isset($_SESSION['username'])){
     header('location: index.php');
 }
 
-
+$gerosity ="";
 $error = false;
 
 if(isset($_POST['btn-register'])){ 
@@ -244,7 +244,7 @@ aside h1 { border-color: #999; border-bottom-style: solid; }
 .add, .cut
 {
 	background: #9AF;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
 	background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
 	border-radius: 0.5em;
