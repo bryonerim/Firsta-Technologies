@@ -572,11 +572,7 @@ echo '<strong>Payment of Second Installment Fee was Successful, Proceed to Print
 ?>
            
            
-            
-            
-               
-
-
+  
     
            
            <?php  echo"<form action=home.php method='post'>";
